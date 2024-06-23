@@ -1,0 +1,78 @@
+.was-greeting-text{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.was-filter-data{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wca-chart{
+    width: 500px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.was-all-chart-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.was-chart-wrap{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.was-filter-date-submission-btn{
+    padding: 8px 15px 8px 15px;
+    background-color: #00A0D2;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.was-average-order-val-amt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.forms-wrap{
+    display: flex;
+}
+
+.error-notice{
+	margin:5px;
+}
+
+.oaerror{
+	width: 94%;
+	background-color: #ffffff;
+	padding:20px;
+	border:1px solid #eee;
+	border-left-width:5px;
+	border-radius: 3px;
+	margin: 10px auto;
+	font-size: 16px;
+}
+
+.danger strong{
+	color:#d9534f;
+}
+
+.warning{
+	border-left-color: #f0ad4e;
+	background-color: rgba(240, 173, 78, 0.1);
+}
+
+.warning strong{
+	color:#f0ad4e;
+}
